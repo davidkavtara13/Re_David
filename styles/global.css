@@ -1,0 +1,242 @@
+/* Global reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+/* Global reset end */
+@font-face {
+  font-family: "Noto Sans Georgian";
+  src: url("../../assets/fonts/NotoSans-VariableFont_wdth,wght.ttf");
+}
+body {
+  font-family: "Noto Sans Georgian", sans-serif;
+}
+
+body header {
+  background-color: #0e0e0e;
+}
+body header .header_container {
+  max-width: 1440px;
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+body header .header_container .header_content {
+  max-width: 1100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body header .header_container .header_content .logo img {
+  width: 140px;
+}
+body header .header_container .header_content .navigation nav ul {
+  display: flex;
+  align-items: center;
+}
+body header .header_container .header_content .navigation nav ul li {
+  margin: 0px 25px;
+}
+body header .header_container .header_content .navigation nav ul li a {
+  font-size: 13px;
+  color: #ffffff;
+  line-height: 25px;
+  letter-spacing: 2px;
+}
+body header .header_container .header_content .cart a img {
+  width: 23px;
+}
+body header .underline {
+  max-width: 1110px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #979797;
+  height: 1px;
+}
+
+body main .hero_container {
+  background-color: #0e0e0e;
+}
+body main .hero_container .hero_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+}
+body main .hero_container .hero_content .hero_text {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
+}
+body main .hero_container .hero_content .hero_text .new_product h3 {
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 10px;
+}
+body main .hero_container .hero_content .hero_text .product_name {
+  margin: 24px 0px;
+}
+body main .hero_container .hero_content .hero_text .product_name h1 {
+  font-size: 56px;
+  color: #ffffff;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+body main .hero_container .hero_content .hero_text .product_desc p {
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 25px;
+  max-width: 350px;
+}
+body main .hero_container .hero_content .hero_text .view_product {
+  margin-top: 40px;
+}
+body main .hero_container .hero_content .hero_text .view_product button {
+  font-size: 13px;
+  color: #ffffff;
+  border: none;
+  padding: 15px 34px;
+  background-color: #d87d4a;
+}
+body main .hero_container .hero_content .hero_img {
+  width: 60%;
+}
+body main .hero_container .hero_content .hero_img img {
+  width: 100%;
+}/*# sourceMappingURL=global.css.map */
