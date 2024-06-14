@@ -239,4 +239,91 @@ body main .hero_container .hero_content .hero_img {
 }
 body main .hero_container .hero_content .hero_img img {
   width: 100%;
+}
+body main .categories_container {
+  width: 1110px;
+  height: 400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body main .categories_container .Card {
+  width: 350px;
+  height: 204px;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  margin-top: 150px;
+}
+body main .categories_container .Card .Img {
+  position: relative;
+  top: -40%;
+  left: 32%;
+}
+body main .categories_container .Card .Img img {
+  height: 160px;
+}
+body main .categories_container .Card .alexaImg {
+  left: 28%;
+}
+body main .categories_container .Card .H {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24.59px;
+  letter-spacing: 1.2px;
+  position: relative;
+  top: -22%;
+}
+body main .categories_container .Card .Link {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 17.76px;
+  letter-spacing: 1px;
+  text-align: center;
+  position: relative;
+  bottom: 15%;
+}
+body main .categories_container .Card .Arrow {
+  position: relative;
+  width: 5px;
+  height: 10px;
+  bottom: 23%;
+  right: -58%;
+}
+body main .add {
+  width: 1110px;
+  height: 588px;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 70px;
+  justify-content: space-between;
+}
+body main .add .wholeText {
+  width: 540px;
+  height: 588px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+body main .add .wholeText .text {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 1.4px;
+  text-align: left;
+}
+body main .add .wholeText .text .best {
+  color: #d87d4a;
+}
+body main .add .wholeText .bigP {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: left;
+  margin-top: 32px;
+}
+body main .add .addImg {
+  width: 540px;
+  height: 588px;
 }/*# sourceMappingURL=global.css.map */

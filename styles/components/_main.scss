@@ -1,62 +1,151 @@
 body {
-    main {
-      .hero_container {
-        background-color: #0e0e0e;
-        .hero_content {
+  main {
+    .hero_container {
+      background-color: #0e0e0e;
+      .hero_content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1100px;
+        width: 100%;
+        margin: 0 auto;
+        .hero_text {
+          width: 45%;
           display: flex;
-          align-items: center;
-          justify-content: space-between;
-          max-width: 1100px;
-          width: 100%;
-          margin: 0 auto;
-          .hero_text {
-            width: 45%;
-            display: flex;
-            flex-direction: column;
-            margin-right: 40px;
-            .new_product {
-              h3 {
-                color: $main-white;
-                font-size: 14px;
-                letter-spacing: 10px;
-              }
-            }
-            .product_name {
-              margin: 24px 0px;
-              h1 {
-                font-size: 56px;
-                color: $main-white;
-                letter-spacing: 2px;
-                font-weight: bold;
-              }
-            }
-            .product_desc {
-              p {
-                color: $main-white;
-                font-size: 15px;
-                line-height: 25px;
-                max-width: 350px;
-              }
-            }
-            .view_product {
-              margin-top: 40px;
-              button {
-                font-size: 13px;
-                color: $main-white;
-                border: none;
-                padding: 15px 34px;
-                background-color: $main-orange;
-              }
+          flex-direction: column;
+          margin-right: 40px;
+          .new_product {
+            h3 {
+              color: $main-white;
+              font-size: 14px;
+              letter-spacing: 10px;
             }
           }
-          .hero_img {
-            width: 60%;
-            img {
-              width: 100%;
+          .product_name {
+            margin: 24px 0px;
+            h1 {
+              font-size: 56px;
+              color: $main-white;
+              letter-spacing: 2px;
+              font-weight: bold;
             }
+          }
+          .product_desc {
+            p {
+              color: $main-white;
+              font-size: 15px;
+              line-height: 25px;
+              max-width: 350px;
+            }
+          }
+          .view_product {
+            margin-top: 40px;
+            button {
+              font-size: 13px;
+              color: $main-white;
+              border: none;
+              padding: 15px 34px;
+              background-color: $main-orange;
+            }
+          }
+        }
+        .hero_img {
+          width: 60%;
+          img {
+            width: 100%;
           }
         }
       }
     }
+    .categories_container {
+      width: 1110px;
+      height: 400px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      .Card {
+        width: 350px;
+        height: 204px;
+        background-color: #f1f1f1;
+        border-radius: 8px;
+        margin-top: 150px;
+        .Img {
+          position: relative;
+          top: -40%;
+          left: 32%;
+
+          img {
+            height: 160px;
+          }
+        }
+        .alexaImg {
+          left: 28%;
+        }
+        .H {
+          text-align: center;
+          font-size: 18px;
+          font-weight: 700;
+          line-height: 24.59px;
+          letter-spacing: 1.2px;
+          position: relative;
+          top: -22%;
+        }
+        .Link {
+          font-size: 13px;
+          font-weight: 700;
+          line-height: 17.76px;
+          letter-spacing: 1px;
+          text-align: center;
+          position: relative;
+          bottom: 15%;
+        }
+        .Arrow {
+          position: relative;
+          width: 5px;
+          height: 10px;
+          bottom: 23%;
+          right: -58%;
+        }
+      }
+    }
+    .add {
+      width: 1110px;
+      height: 588px;
+      display: flex;
+      margin: 0 auto;
+      margin-top: 70px;
+      justify-content: space-between;
+      .wholeText {
+        width: 540px;
+        height: 588px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .text {
+          font-size: 40px;
+          font-weight: 700;
+          line-height: 44px;
+          letter-spacing: 1.4px;
+          text-align: left;
+
+          .best {
+            color: #d87d4a;
+          }
+        }
+        .bigP {
+          font-size: 15px;
+          font-weight: 700;
+          line-height: 25px;
+          text-align: left;
+          margin-top: 32px;
+        }
+      }
+      .addImg {
+        width: 540px;
+        height: 588px;
+      }
+    }
   }
-  
+}
