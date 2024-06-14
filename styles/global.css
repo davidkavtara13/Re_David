@@ -242,7 +242,7 @@ body main .hero_container .hero_content .hero_img img {
 }
 body main .categories_container {
   width: 1110px;
-  height: 284px;
+  height: 400px;
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
@@ -253,7 +253,7 @@ body main .categories_container .Card {
   height: 204px;
   background-color: #f1f1f1;
   border-radius: 8px;
-  margin-top: 200px;
+  margin-top: 150px;
 }
 body main .categories_container .Card .Img {
   position: relative;
@@ -290,4 +290,40 @@ body main .categories_container .Card .Arrow {
   height: 10px;
   bottom: 23%;
   right: -58%;
+}
+body main .add {
+  width: 1110px;
+  height: 588px;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 70px;
+  justify-content: space-between;
+}
+body main .add .wholeText {
+  width: 540px;
+  height: 588px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+body main .add .wholeText .text {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 1.4px;
+  text-align: left;
+}
+body main .add .wholeText .text .best {
+  color: #d87d4a;
+}
+body main .add .wholeText .bigP {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: left;
+  margin-top: 32px;
+}
+body main .add .addImg {
+  width: 540px;
+  height: 588px;
 }/*# sourceMappingURL=global.css.map */
