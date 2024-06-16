@@ -64,6 +64,7 @@ body {
       display: flex;
       justify-content: space-around;
       align-items: center;
+      margin-top: 150px;
       .Card {
         width: 350px;
         height: 204px;
@@ -114,7 +115,7 @@ body {
       height: 588px;
       display: flex;
       margin: 0 auto;
-      margin-top: 70px;
+      margin-top: 120px;
       justify-content: space-between;
       .wholeText {
         width: 540px;
@@ -145,6 +146,28 @@ body {
       .addImg {
         width: 540px;
         height: 588px;
+      }
+    }
+    .feedbacks {
+      width: 1110px;
+      height: 351px;
+      // border: 1px solid #0000001a;
+      .title {
+        width: 1110px;
+        height: 58px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .swiper_nav {
+          display: flex;
+        }
+        h2 {
+          font-size: 48px;
+          font-weight: 700;
+          line-height: 57.6px;
+          text-align: left;
+        }
       }
     }
   }

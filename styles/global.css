@@ -247,6 +247,7 @@ body main .categories_container {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-top: 150px;
 }
 body main .categories_container .Card {
   width: 350px;
@@ -296,7 +297,7 @@ body main .add {
   height: 588px;
   display: flex;
   margin: 0 auto;
-  margin-top: 70px;
+  margin-top: 120px;
   justify-content: space-between;
 }
 body main .add .wholeText {
@@ -326,4 +327,24 @@ body main .add .wholeText .bigP {
 body main .add .addImg {
   width: 540px;
   height: 588px;
+}
+body main .feedbacks {
+  width: 1110px;
+  height: 351px;
+}
+body main .feedbacks .title {
+  width: 1110px;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body main .feedbacks .title .swiper_nav {
+  display: flex;
+}
+body main .feedbacks .title h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 57.6px;
+  text-align: left;
 }/*# sourceMappingURL=global.css.map */
