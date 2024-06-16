@@ -327,4 +327,24 @@ body main .add .wholeText .bigP {
 body main .add .addImg {
   width: 540px;
   height: 588px;
+}
+body main .feedbacks {
+  width: 1110px;
+  height: 351px;
+}
+body main .feedbacks .title {
+  width: 1110px;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body main .feedbacks .title .swiper_nav {
+  display: flex;
+}
+body main .feedbacks .title h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 57.6px;
+  text-align: left;
 }/*# sourceMappingURL=global.css.map */

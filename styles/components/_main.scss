@@ -148,5 +148,27 @@ body {
         height: 588px;
       }
     }
+    .feedbacks {
+      width: 1110px;
+      height: 351px;
+      // border: 1px solid #0000001a;
+      .title {
+        width: 1110px;
+        height: 58px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .swiper_nav {
+          display: flex;
+        }
+        h2 {
+          font-size: 48px;
+          font-weight: 700;
+          line-height: 57.6px;
+          text-align: left;
+        }
+      }
+    }
   }
 }
