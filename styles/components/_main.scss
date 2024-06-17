@@ -163,6 +163,11 @@ body {
 
         .swiper_nav {
           display: flex;
+          .button-prev {
+            img {
+              margin-right: 10px;
+            }
+          }
         }
         h2 {
           font-size: 48px;
