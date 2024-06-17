@@ -452,6 +452,10 @@ body footer .footer .footerNav {
   align-items: center;
   justify-content: space-between;
 }
+body footer .footer .footerNav h3 {
+  font-size: 21px;
+  font-weight: 700;
+}
 body footer .footer .footerNav nav {
   width: 427px;
 }
@@ -461,4 +465,35 @@ body footer .footer .footerNav nav ul {
 }
 body footer .footer .footerNav nav ul li a {
   color: #ffffff;
+}
+body footer .footer .explanation {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: left;
+  color: #ffffff;
+}
+body footer .footer .explanation .textAndLogos {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 36px;
+  margin-bottom: 56px;
+}
+body footer .footer .explanation .textAndLogos p {
+  width: 540px;
+  height: 100px;
+  opacity: 0.5;
+}
+body footer .footer .explanation .textAndLogos .socLogos {
+  width: 105px;
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+body footer .footer .explanation .textAndLogos .socLogos .fbLogo .fb {
+  fill: #ffffff;
+}
+body footer .footer .explanation .copy {
+  opacity: 0.5;
 }/*# sourceMappingURL=global.css.map */
