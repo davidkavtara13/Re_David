@@ -6,6 +6,9 @@ const limit = 2;
 
 let products = [];
 
+let prevBtn = document.getElementById("prevBtn");
+let nextBtn = document.getElementById("nextBtn");
+
 fetch("../products.json")
   .then((res) => res.json())
   .then((data) => {
@@ -55,3 +58,36 @@ function generateBox() {
     textDiv.appendChild(productButton);
   });
 }
+
+if (currentPage === 1) {
+  prevBtn.disabled = true;
+}
+prevBtn.addEventListener("click", () => {
+  if (currentPage > 1) {
+    currentPage--;
+    nextBtn.disabled = false;
+    generateBox();
+    window.scrollTo({
+      top: 0,
+    });
+  } else {
+    prevBtn.disabled = true;
+  }
+  if (currentPage === 1) {
+    prevBtn.disabled = true;
+  }
+});
+
+nextBtn.addEventListener("click", () => {
+  if (currentPage < Math.ceil(products.length / limit)) {
+    prevBtn.disabled = false;
+    currentPage++;
+    generateBox();
+    window.scrollTo({
+      top: 0,
+    });
+  }
+  if (currentPage === Math.ceil(products.length / limit)) {
+    nextBtn.disabled = true;
+  }
+});

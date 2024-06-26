@@ -135,6 +135,10 @@ q:after {
 }
 
 /* Global reset end */
+html {
+  scroll-behavior: smooth;
+}
+
 @font-face {
   font-family: "Noto Sans Georgian";
   src: url("../../assets/fonts/NotoSans-VariableFont_wdth,wght.ttf");
@@ -576,6 +580,8 @@ body main .productContainer .productContent .ProductList .productBox .topTextDiv
 body main .productContainer .productContent .pagination {
   width: 100%;
   margin-top: 100px;
+  display: flex;
+  justify-content: center;
 }
 body main .productContainer .productContent .pagination button {
   display: flex;
@@ -608,6 +614,6 @@ body main .productContainer .productContent .pagination button svg {
 body main .productContainer .productContent .pagination button svg path {
   transition: 300ms;
 }
-body main .productContainer .productContent .pagination #prevButton {
+body main .productContainer .productContent .pagination #prevBtn {
   margin-right: 50px;
 }/*# sourceMappingURL=global.css.map */
