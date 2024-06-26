@@ -1,0 +1,123 @@
+body {
+  main {
+    .titleContainer {
+      background-color: #0e0e0e;
+      .titleContent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 95px 0px;
+
+        h2 {
+          color: $main-white;
+          font-size: 40px;
+          letter-spacing: 1.4px;
+        }
+      }
+    }
+    .productContainer {
+      max-width: 1440px;
+      margin: 150px auto;
+
+      .productContent {
+        max-width: 1100px;
+        margin: 0 auto;
+        .ProductList {
+          .productBox {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            &:not(:last-child) {
+              margin-bottom: 150px;
+            }
+            &:last-child {
+              flex-direction: row-reverse;
+            }
+            .imgTopDiv {
+              flex: 0.45;
+
+              background-color: $main-gray;
+              border-radius: 8px;
+              padding: 50px 30px;
+              width: 100%;
+              img {
+                width: 80%;
+              }
+            }
+            .topTextDiv {
+              flex: 0.4;
+
+              .proh2 {
+                font-size: 40px;
+                color: $main-black;
+                text-transform: uppercase;
+                font-weight: bold;
+              }
+              .proP {
+                font-size: 15px;
+                color: $main-black;
+                opacity: 0.5;
+                line-height: 25px;
+                margin: 33px 0px;
+              }
+              .proButton {
+                font-size: 13px;
+                color: $main-white;
+                border: none;
+                padding: 15px 34px;
+                background-color: $main-orange;
+                transition: 250ms;
+                &:hover {
+                  background-color: $second-orange;
+                  transition: 250ms;
+                }
+              }
+            }
+          }
+        }
+        .pagination {
+          width: 100%;
+          margin-top: 100px;
+          button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid $main-black;
+            border-radius: 4px;
+            width: 32px;
+            height: 32px;
+            background-color: transparent;
+            transition: 300ms;
+            &:hover {
+              border-color: $main-orange;
+              transition: 300ms;
+              svg {
+                path {
+                  fill: $main-orange;
+                  transition: 300ms;
+                }
+              }
+            }
+            &:disabled {
+              border-color: $main-gray;
+              svg {
+                path {
+                  fill: $main-gray;
+                }
+              }
+            }
+            svg {
+              display: flex;
+              path {
+                transition: 300ms;
+              }
+            }
+          }
+          #prevButton {
+            margin-right: 50px;
+          }
+        }
+      }
+    }
+  }
+}

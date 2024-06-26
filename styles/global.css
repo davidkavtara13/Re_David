@@ -500,4 +500,114 @@ body footer .footer .explanation .textAndLogos .socLogos .fbLogo .fb {
 }
 body footer .footer .explanation .copy {
   opacity: 0.5;
+}
+
+body main .titleContainer {
+  background-color: #0e0e0e;
+}
+body main .titleContainer .titleContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 95px 0px;
+}
+body main .titleContainer .titleContent h2 {
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 1.4px;
+}
+body main .productContainer {
+  max-width: 1440px;
+  margin: 150px auto;
+}
+body main .productContainer .productContent {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+body main .productContainer .productContent .ProductList .productBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body main .productContainer .productContent .ProductList .productBox:not(:last-child) {
+  margin-bottom: 150px;
+}
+body main .productContainer .productContent .ProductList .productBox:last-child {
+  flex-direction: row-reverse;
+}
+body main .productContainer .productContent .ProductList .productBox .imgTopDiv {
+  flex: 0.45;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  padding: 50px 30px;
+  width: 100%;
+}
+body main .productContainer .productContent .ProductList .productBox .imgTopDiv img {
+  width: 80%;
+}
+body main .productContainer .productContent .ProductList .productBox .topTextDiv {
+  flex: 0.4;
+}
+body main .productContainer .productContent .ProductList .productBox .topTextDiv .proh2 {
+  font-size: 40px;
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+body main .productContainer .productContent .ProductList .productBox .topTextDiv .proP {
+  font-size: 15px;
+  color: #000000;
+  opacity: 0.5;
+  line-height: 25px;
+  margin: 33px 0px;
+}
+body main .productContainer .productContent .ProductList .productBox .topTextDiv .proButton {
+  font-size: 13px;
+  color: #ffffff;
+  border: none;
+  padding: 15px 34px;
+  background-color: #d87d4a;
+  transition: 250ms;
+}
+body main .productContainer .productContent .ProductList .productBox .topTextDiv .proButton:hover {
+  background-color: #fbafb5;
+  transition: 250ms;
+}
+body main .productContainer .productContent .pagination {
+  width: 100%;
+  margin-top: 100px;
+}
+body main .productContainer .productContent .pagination button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  width: 32px;
+  height: 32px;
+  background-color: transparent;
+  transition: 300ms;
+}
+body main .productContainer .productContent .pagination button:hover {
+  border-color: #d87d4a;
+  transition: 300ms;
+}
+body main .productContainer .productContent .pagination button:hover svg path {
+  fill: #d87d4a;
+  transition: 300ms;
+}
+body main .productContainer .productContent .pagination button:disabled {
+  border-color: #f1f1f1;
+}
+body main .productContainer .productContent .pagination button:disabled svg path {
+  fill: #f1f1f1;
+}
+body main .productContainer .productContent .pagination button svg {
+  display: flex;
+}
+body main .productContainer .productContent .pagination button svg path {
+  transition: 300ms;
+}
+body main .productContainer .productContent .pagination #prevButton {
+  margin-right: 50px;
 }/*# sourceMappingURL=global.css.map */
