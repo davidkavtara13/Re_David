@@ -134,11 +134,11 @@ q:after {
   content: none;
 }
 
-/* Global reset end */
 html {
   scroll-behavior: smooth;
 }
 
+/* Global reset end */
 @font-face {
   font-family: "Noto Sans Georgian";
   src: url("../../assets/fonts/NotoSans-VariableFont_wdth,wght.ttf");

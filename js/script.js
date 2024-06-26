@@ -20,3 +20,27 @@ const swiper = new Swiper(".swiper", {
     },
   },
 });
+
+const countDay = document.getElementById("day");
+const countHour = document.getElementById("hour");
+const countMinute = document.getElementById("minute");
+const countSecond = document.getElementById("second");
+
+const start = new Date().getTime();
+const duration = 25 * 24 * 60 * 60 * 1000;
+const end = start + duration;
+setInterval(countDown, 1000);
+countDown();
+function countDown() {
+  const now = new Date().getTime();
+  let distance = end - now;
+  let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  countDay.textContent = days;
+  countHour.textContent = hours;
+  countMinute.textContent = minutes;
+  countSecond.textContent = seconds;
+}
