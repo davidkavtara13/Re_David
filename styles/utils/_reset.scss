@@ -134,3 +134,6 @@ q:after {
   content: none;
 }
 /* Global reset end */
+html {
+  scroll-behavior: smooth;
+}

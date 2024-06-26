@@ -135,6 +135,10 @@ q:after {
 }
 
 /* Global reset end */
+html {
+  scroll-behavior: smooth;
+}
+
 @font-face {
   font-family: "Noto Sans Georgian";
   src: url("../../assets/fonts/NotoSans-VariableFont_wdth,wght.ttf");
@@ -331,6 +335,8 @@ body main .add .addImg {
 body main .feedbacks {
   width: 1110px;
   height: 351px;
+  margin: 0 auto;
+  margin-top: 120px;
 }
 body main .feedbacks .title {
   width: 1110px;
@@ -338,13 +344,276 @@ body main .feedbacks .title {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 53px;
 }
 body main .feedbacks .title .swiper_nav {
   display: flex;
+}
+body main .feedbacks .title .swiper_nav .button-prev img {
+  margin-right: 10px;
 }
 body main .feedbacks .title h2 {
   font-size: 48px;
   font-weight: 700;
   line-height: 57.6px;
   text-align: left;
+}
+body main .feedbacks .swiper {
+  width: 100%;
+}
+body main .feedbacks .swiper .swiper-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  height: 250px;
+}
+body main .feedbacks .swiper .swiper-wrapper .swiper-slide .Feed {
+  width: 358.06px;
+  height: 240px;
+  padding: 28px 32px 28px 32px;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1019607843);
+  font-size: 16px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+body main .feedbacks .swiper .swiper-wrapper .swiper-slide .Feed .names {
+  display: flex;
+}
+body main .feedbacks .swiper .swiper-wrapper .swiper-slide .Feed .names h4 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 22px;
+  color: #000000;
+}
+body main .feedbacks .swiper .swiper-wrapper .swiper-slide .Feed .names img {
+  position: relative;
+  bottom: 5%;
+  left: 1%;
+}
+body main .feedbacks .swiper .swiper-wrapper .swiper-slide .Feed .feedsTexts {
+  color: rgba(0, 0, 0, 0.6);
+}
+body main .saleSection {
+  width: 1110px;
+  height: 312px;
+  margin: 0 auto;
+  margin-top: 120px;
+  margin-bottom: 256px;
+}
+body main .saleSection .summerSale .saleTitle {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 65.28px;
+  text-align: left;
+  color: #000000;
+  margin-bottom: 48px;
+}
+body main .saleSection .summerSale .countdown {
+  display: flex;
+  justify-content: space-between;
+  height: 199px;
+  width: 1110px;
+}
+body main .saleSection .summerSale .countdown .count {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 252px;
+  height: 199px;
+  border-radius: 22px;
+  background-color: #101010;
+  color: #ffffff;
+}
+body main .saleSection .summerSale .countdown .count h3 {
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 96px;
+  text-align: center;
+}
+body main .saleSection .summerSale .countdown .count h5 {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: center;
+}
+
+body footer {
+  background-color: #101010;
+  width: 100%;
+  height: 365px;
+  display: flex;
+  align-items: center;
+}
+body footer .footer {
+  width: 1110px;
+  height: 242px;
+  background-color: #101010;
+  margin: 0 auto;
+}
+body footer .footer .footerNav {
+  width: 1110px;
+  height: 25px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body footer .footer .footerNav h3 {
+  font-size: 21px;
+  font-weight: 700;
+}
+body footer .footer .footerNav nav {
+  width: 427px;
+}
+body footer .footer .footerNav nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+body footer .footer .footerNav nav ul li a {
+  color: #ffffff;
+}
+body footer .footer .explanation {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: left;
+  color: #ffffff;
+}
+body footer .footer .explanation .textAndLogos {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 36px;
+  margin-bottom: 56px;
+}
+body footer .footer .explanation .textAndLogos p {
+  width: 540px;
+  height: 100px;
+  opacity: 0.5;
+}
+body footer .footer .explanation .textAndLogos .socLogos {
+  width: 105px;
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+body footer .footer .explanation .textAndLogos .socLogos .fbLogo .fb {
+  fill: #ffffff;
+}
+body footer .footer .explanation .copy {
+  opacity: 0.5;
+}
+
+body main .titleContainer {
+  background-color: #0e0e0e;
+}
+body main .titleContainer .titleContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 95px 0px;
+}
+body main .titleContainer .titleContent h2 {
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 1.4px;
+}
+body main .productContainer {
+  max-width: 1440px;
+  margin: 150px auto;
+}
+body main .productContainer .productContent {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+body main .productContainer .productContent .ProductList .productBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body main .productContainer .productContent .ProductList .productBox:not(:last-child) {
+  margin-bottom: 150px;
+}
+body main .productContainer .productContent .ProductList .productBox:last-child {
+  flex-direction: row-reverse;
+}
+body main .productContainer .productContent .ProductList .productBox .imgTopDiv {
+  flex: 0.45;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  padding: 50px 30px;
+  width: 100%;
+}
+body main .productContainer .productContent .ProductList .productBox .imgTopDiv img {
+  width: 80%;
+}
+body main .productContainer .productContent .ProductList .productBox .topTextDiv {
+  flex: 0.4;
+}
+body main .productContainer .productContent .ProductList .productBox .topTextDiv .proh2 {
+  font-size: 40px;
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+body main .productContainer .productContent .ProductList .productBox .topTextDiv .proP {
+  font-size: 15px;
+  color: #000000;
+  opacity: 0.5;
+  line-height: 25px;
+  margin: 33px 0px;
+}
+body main .productContainer .productContent .ProductList .productBox .topTextDiv .proButton {
+  font-size: 13px;
+  color: #ffffff;
+  border: none;
+  padding: 15px 34px;
+  background-color: #d87d4a;
+  transition: 250ms;
+}
+body main .productContainer .productContent .ProductList .productBox .topTextDiv .proButton:hover {
+  background-color: #fbafb5;
+  transition: 250ms;
+}
+body main .productContainer .productContent .pagination {
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+body main .productContainer .productContent .pagination button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  width: 32px;
+  height: 32px;
+  background-color: transparent;
+  transition: 300ms;
+}
+body main .productContainer .productContent .pagination button:hover {
+  border-color: #d87d4a;
+  transition: 300ms;
+}
+body main .productContainer .productContent .pagination button:hover svg path {
+  fill: #d87d4a;
+  transition: 300ms;
+}
+body main .productContainer .productContent .pagination button:disabled {
+  border-color: #f1f1f1;
+}
+body main .productContainer .productContent .pagination button:disabled svg path {
+  fill: #f1f1f1;
+}
+body main .productContainer .productContent .pagination button svg {
+  display: flex;
+}
+body main .productContainer .productContent .pagination button svg path {
+  transition: 300ms;
+}
+body main .productContainer .productContent .pagination #prevBtn {
+  margin-right: 50px;
 }/*# sourceMappingURL=global.css.map */

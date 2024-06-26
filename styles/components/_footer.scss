@@ -1,0 +1,74 @@
+body {
+  footer {
+    background-color: $second-black;
+    width: 100%;
+    height: 365px;
+    display: flex;
+    align-items: center;
+    .footer {
+      width: 1110px;
+      height: 242px;
+      background-color: $second-black;
+      margin: 0 auto;
+
+      .footerNav {
+        width: 1110px;
+        height: 25px;
+        color: $main-white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        h3 {
+          font-size: 21px;
+          font-weight: 700;
+        }
+        nav {
+          width: 427px;
+          ul {
+            display: flex;
+            justify-content: space-between;
+            li {
+              a {
+                color: $main-white;
+              }
+            }
+          }
+        }
+      }
+      .explanation {
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 25px;
+        text-align: left;
+        color: $main-white;
+        .textAndLogos {
+          display: flex;
+          justify-content: space-between;
+          align-items: flex-end;
+          margin-top: 36px;
+          margin-bottom: 56px;
+
+          p {
+            width: 540px;
+            height: 100px;
+            opacity: 0.5;
+          }
+          .socLogos {
+            width: 105px;
+            height: 24px;
+            display: flex;
+            justify-content: space-between;
+            .fbLogo {
+              .fb {
+                fill: $main-white;
+              }
+            }
+          }
+        }
+        .copy {
+          opacity: 0.5;
+        }
+      }
+    }
+  }
+}
